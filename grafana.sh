@@ -8,9 +8,9 @@ echo "deb [signed-by=/etc/apt/keyrings/grafana.gpg] https://apt.grafana.com beta
 # Updates the list of available packages
 sudo apt-get update
 # Installs the latest OSS release:
-sudo apt-get install grafana
+sudo apt-get install grafana -y
 # Installs the latest Enterprise release:
-sudo apt-get install grafana-enterprise
+sudo apt-get install grafana-enterprise -y
 sudo service grafana-server start
 
 # now check publicip:3000 
